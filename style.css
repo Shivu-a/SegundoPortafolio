@@ -203,6 +203,45 @@ footer {
   background-color: rgba(200, 200, 200, 0.4);
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form label {
+  font-weight: 700;
+  font-size: 2.2rem;
+  padding: 20px 0px 5px 0px;
+}
+
+form input,
+form textarea {
+  all: unset;
+  font-family: sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 1.7rem;
+  max-width: 80vw;
+}
+
+form button {
+  all: unset;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 20px 50px;
+  border: 1px solid black;
+  margin: 45px 0px;
+  transition: all 250ms;
+}
+
+form button:hover {
+  border: 1px solid grey;
+  background-color: black;
+  color: white;
+}
+
 @media screen and (max-width: 800px) {
   .lista-navbar {
     margin: 0;
